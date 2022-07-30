@@ -1,0 +1,34 @@
+07-30 19:26:32.163: D/Unity(15212): - Completed reload, in  1.419 seconds
+07-30 19:26:32.851: D/Unity(15212): PlayerInitEngineGraphics OK
+07-30 19:26:32.871: D/Unity(15212): Found 15 native sensors
+07-30 19:26:32.875: D/Unity(15212): Sensor :        Accelerometer ( 1) ; 0.009577 / 0.00s ; accelerometer-bmi160 / bosch 
+07-30 19:26:32.876: D/Unity(15212): Sensor :        Accelerometer ( 1) ; 0.009577 / 0.00s ; accelerometer-bmi160 / bosch 
+07-30 19:26:32.895: D/Unity(15212): SetWindow 0 0xe9eca808
+07-30 19:26:32.896: D/Unity(15212): [EGL] Attaching window :0xe9eca808
+07-30 19:26:32.902: D/Unity(15212): ANativeWindow: (1080/2280) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1080/2280)
+07-30 19:26:35.086: D/Unity(15212): UnloadTime: 4.740625 ms
+07-30 19:26:35.086: D/Unity(15212): [ 07-30 19:26:35.113 15212:15356 D/         ]
+07-30 19:26:35.086: D/Unity(15212): addLayerName, tid:15356
+07-30 19:26:36.486: D/Unity(15212): Sensor :        Accelerometer ( 1) ; 0.009577 / 0.00s ; accelerometer-bmi160 / bosch 
+07-30 19:26:36.513: D/Unity(15212): Choreographer available: Enabling VSYNC timing
+07-30 19:26:37.104: E/Unity(15212): DllNotFoundException: sqlite3 assembly:<unknown assembly> type:<unknown type> member:(null)
+07-30 19:26:37.104: E/Unity(15212):   at (wrapper managed-to-native) Mono.Data.Sqlite.UnsafeNativeMethods.sqlite3_libversion_number()
+07-30 19:26:37.104: E/Unity(15212):   at Mono.Data.Sqlite.UnsafeNativeMethods..cctor () [0x00000] in <b44a0294bda647da963083df0597d4ec>:0 
+07-30 19:26:37.104: E/Unity(15212): Rethrow as TypeInitializationException: The type initializer for 'Mono.Data.Sqlite.UnsafeNativeMethods' threw an exception.
+07-30 19:26:37.104: E/Unity(15212):   at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
+07-30 19:26:37.104: E/Unity(15212):   at Mono.Data.Sqlite.SQLite3.Open (System.String strFilename, Mono.Data.Sqlite.SQLiteOpenFlagsEnum flags, System.Int32 maxPoolSize, System.Boolean usePool) [0x00037] in <b44a0294bda647da963083df0597d4ec>:0 
+07-30 19:26:37.104: E/Unity(15212):   at Mono.Data.Sqlite.SqliteConnection.Open () [0x0026f] in <b44a0294bda647da963083df0597d4ec>:0 
+07-30 19:26:37.104: E/Unity(15212):   at DatabaseManager.CreateAndOpenDatabase () [0x00013] in C:\Users\Javi\Documents\UnityProjects\Heartburn tracker\Assets\Scripts\DatabaseManager.cs:47 
+07-30 19:26:37.104: E/Unity(15212):   at DatabaseManager.Start () [0x00001] in C:\Users\
+07-30 19:26:37.104: E/Unity(15212): [ 07-30 19:26:37.344 15402:15413 E/         ]
+07-30 19:26:37.104: E/Unity(15212): [ZeroHung]zrhung_get_config: Get config failed for wp[0x0008]
+07-30 19:26:45.684: I/Unity(15212): windowFocusChanged: false
+07-30 19:26:45.684: I/Unity(15212): [ 07-30 19:26:45.686 15212:15250 E/         ]
+07-30 19:26:45.684: I/Unity(15212): [ZeroHung]zrhung_get_config: Get config failed for wp[0x0102]
+07-30 19:26:47.047: I/Unity(15212): windowFocusChanged: true
+07-30 19:27:02.076: I/Unity(15212): onPause
+07-30 19:27:02.140: D/Unity(15212): Sensor :        Accelerometer ( 1) ; 0.009577 / 0.00s ; accelerometer-bmi160 / bosch 
+07-30 19:27:02.176: D/Unity(15212): PersistentUnitySurface.preserveContent: android.view.SurfaceView{e69518a VFE...... .F....I. 0,0-1080,2280 #7f010000 app:id/unitySurfaceView}
+07-30 19:27:02.197: D/Unity(15212): PlacerHoler view already exists
+07-30 19:27:02.198: D/Unity(15212): SetWindow 0 0x0
+07-30 19:27:02.199: D/ViewRootImpl[UnityPlayerActivity](15212): surface should not be released
